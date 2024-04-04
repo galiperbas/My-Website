@@ -1,0 +1,28 @@
+.bar {
+    display: flex
+}
+
+.bar .segment {
+    height: .7rem;
+    flex-grow: 1;
+}
+
+.bar .segment:nth-child(1) {
+    background-color: #4ba69d;
+}
+
+.bar .segment:nth-child(2) {
+    background-color: #a0d9d3;;
+}
+
+.bar .segment:nth-child(3) {
+    background-color: #f29e38;
+}
+
+.bar .segment:nth-child(4) {
+    background-color: #f27405;
+}
+
+.bar .segment:nth-child(5) {
+    background-color: #bf4904;
+}
